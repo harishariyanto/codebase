@@ -1,0 +1,23 @@
+{
+    "name": "harishariyanto/codebase",
+    "description": "CodeBase Template",
+    "authors": [
+        {
+            "name": "Haris Hariyanto",
+            "email": "harishariyanto299@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Harishariyanto\\Codebase\\CodebaseServiceProvider"
+    		]
+    	}
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Harishariyanto\\Codebase\\": "src"
+    	}
+    }
+}
